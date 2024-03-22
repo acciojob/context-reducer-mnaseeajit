@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./components/App";
+import AppWithAuthProvider from "./components/App";
 
 
-
+ReactDOM.render(<AppWithAuthProvider /> , document.getElementById("root"));
